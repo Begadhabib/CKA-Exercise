@@ -14,6 +14,13 @@ Investigate and restore the workload to a healthy, stable state. You need to fig
 
 You'll need more than just `kubectl get` and `kubectl describe` for this one — at some point, the logs are the only place that tell the real story.
 
+## Final State
+
+When you're done:
+
+* The PersistentVolumeClaim in `vault-app` is `Bound`.
+* The workload's Pod is `Running` and stable — no restarts.
+
 ## Success
 
 The challenge is done when the final validation passes.
