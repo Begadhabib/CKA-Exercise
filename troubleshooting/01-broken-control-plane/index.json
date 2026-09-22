@@ -1,0 +1,22 @@
+{
+  "title": "Broken Control Plane",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Troubleshoot the Incident",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node-4GB"
+  }
+}
