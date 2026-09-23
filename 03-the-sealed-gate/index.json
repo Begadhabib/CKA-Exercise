@@ -1,0 +1,23 @@
+{
+  "title": "The Sealed Gate",
+  "description": "Troubleshoot a Kubernetes workload broken by a missing RBAC permission and a Service selector mismatch.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Troubleshoot the Incident",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
