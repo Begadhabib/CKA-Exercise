@@ -1,0 +1,27 @@
+{
+  "title": "The Broken Checkout",
+  "description": "Troubleshoot a Kubernetes workload broken by a bad image tag, a Secret key mismatch, and a misconfigured readiness probe.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Troubleshoot the Incident",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      },
+      {
+        "title": "Solution (optional)",
+        "text": "solution.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
