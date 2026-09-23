@@ -1,0 +1,27 @@
+{
+  "title": "The Stubborn Sidecar",
+  "description": "Fix a Kubernetes Job that never completes because its log-shipping sidecar is configured as an ordinary container instead of a native sidecar.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Fix the Incident",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      },
+      {
+        "title": "Solution (optional)",
+        "text": "solution.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
