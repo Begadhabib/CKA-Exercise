@@ -28,7 +28,7 @@ invent a workaround. Read the official docs on **sidecar containers**
 before you touch anything:
 
 * Concept guide: https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/
-* Hands-on tutorial: https://kubernetes.io/docs/tutorials/configuration/container-startup-order/
+* Hands-on tutorial: https://kubernetes.io/docs/tutorials/configuration/pod-sidecar-containers/
 
 Pay close attention to:
 * Where a sidecar is declared in the Pod spec (it isn't under
