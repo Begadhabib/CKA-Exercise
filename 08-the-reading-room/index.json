@@ -1,0 +1,27 @@
+{
+  "title": "The Reading Room",
+  "description": "Design and implement a least-privilege Kubernetes RBAC model for a read-only reporting workload, covering Role, RoleBinding, ClusterRole, and ClusterRoleBinding.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Implement the Authorization Model",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      },
+      {
+        "title": "Solution (optional)",
+        "text": "solution.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
