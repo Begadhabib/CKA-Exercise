@@ -1,0 +1,27 @@
+{
+  "title": "The Walled Garden",
+  "description": "Troubleshoot a Kubernetes NetworkPolicy misconfiguration that blocks required application traffic while learning podSelector, ingress, egress, and default-deny behavior.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Troubleshoot the Incident",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      },
+      {
+        "title": "Solution (optional)",
+        "text": "solution.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
