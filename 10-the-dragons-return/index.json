@@ -1,0 +1,27 @@
+{
+  "title": "The Dragon's Return",
+  "description": "Troubleshoot a broken Kubernetes control plane with three layered faults: an etcd port mismatch, wrongly written CPU resources, and a bad certificate path in a static pod manifest.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Troubleshoot the Incident",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      },
+      {
+        "title": "Solution (optional)",
+        "text": "solution.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
