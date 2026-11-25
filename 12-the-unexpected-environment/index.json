@@ -1,0 +1,27 @@
+{
+  "title": "12 - The Unexpected Environment",
+  "description": "A backend fails at startup because the environment variables it relies on are missing. Understand Service links versus DNS.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Investigate and fix the incident",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}

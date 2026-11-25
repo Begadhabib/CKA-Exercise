@@ -1,0 +1,27 @@
+{
+  "title": "11 - The Missing Configuration",
+  "description": "A production Deployment suddenly stops starting. Find out why the containers are never even created.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Investigate and fix the incident",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
